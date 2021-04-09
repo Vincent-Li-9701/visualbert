@@ -7,13 +7,12 @@ import torch
 
 from allennlp.common.checks import ConfigurationError
 from allennlp.data.fields.sequence_field import SequenceField
-from allennlp.data.tokenizers.token import Token
-from allennlp.data.token_indexers.token_indexer import TokenIndexer, TokenType
+from allennlp.data.tokenizers.token_class import Token
+from allennlp.data.token_indexers.token_indexer import TokenIndexer
 from allennlp.data.vocabulary import Vocabulary
 from allennlp.nn import util
 
 import numpy
-TokenList = List[TokenType]  # pylint: disable=invalid-name
 
 
 # This will work for anything really

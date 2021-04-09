@@ -13,7 +13,8 @@ import pandas as pd
 import torch
 from allennlp.common.util import START_SYMBOL, END_SYMBOL
 from allennlp.nn.util import device_mapping
-from allennlp.training.trainer import move_optimizer_to_cuda
+#from allennlp.training.trainer import move_optimizer_to_cuda
+from allennlp.training.util import move_optimizer_to_cuda
 from torch.nn import DataParallel
 
 import torch.nn.functional as F

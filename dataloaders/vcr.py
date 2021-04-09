@@ -9,7 +9,8 @@ from collections import defaultdict
 import numpy as np
 import numpy
 import torch
-from allennlp.data.dataset import Batch
+#from allennlp.data.dataset import Batch
+from allennlp.data.batch import Batch
 from allennlp.data.fields import TextField, ListField, LabelField, SequenceLabelField, ArrayField, MetadataField
 from allennlp.data.instance import Instance
 from allennlp.data.token_indexers import ELMoTokenCharactersIndexer

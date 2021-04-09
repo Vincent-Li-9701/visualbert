@@ -1,6 +1,6 @@
 {
   "dataset": "coco",
-  "data_root": "X_COCO", //Please replace this with the actual corresponding folder
+  "data_root": "/data3/svli97/visualbert/COCO", //Please replace this with the actual corresponding folder
 
   "image_feature_type": "vqa_fix_100",
   "image_screening_parameters": null,
@@ -14,7 +14,7 @@
   "max_seq_length": 128,
   "bert_model_name": "bert-base-uncased",
   "do_lower_case": true,
-  "train_batch_size": 48,
+  "train_batch_size": 12,
   "eval_batch_size": 48,
 
   "pretraining": true,

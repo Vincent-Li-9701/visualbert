@@ -8,7 +8,7 @@ import numpy as np
 import numpy
 import torch
 from torch.utils.data import Dataset
-from allennlp.data.dataset import Batch
+from allennlp.data import Batch
 from allennlp.data.fields import TextField, ListField, LabelField, SequenceLabelField, ArrayField, MetadataField
 from allennlp.data.instance import Instance
 from allennlp.data.token_indexers import ELMoTokenCharactersIndexer
@@ -24,7 +24,7 @@ from copy import deepcopy
 
 from torch.utils.data.dataloader import default_collate
 from allennlp.data.instance import Instance
-from allennlp.data.dataset import Batch
+from allennlp.data import Batch
 from pytorch_pretrained_bert.fine_tuning import _truncate_seq_pair, random_word
 from dataloaders.bert_field import IntArrayField
 from allennlp.data.fields import ListField

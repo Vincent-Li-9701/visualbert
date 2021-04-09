@@ -13,7 +13,7 @@ from copy import deepcopy
 import torch
 from torch.utils.data.dataloader import default_collate
 from allennlp.data.instance import Instance
-from allennlp.data.dataset import Batch
+from allennlp.data import Batch
 
 from allennlp.data.fields import TextField, ListField, LabelField, SequenceLabelField, ArrayField, MetadataField
 from dataloaders.bert_field import IntArrayField
